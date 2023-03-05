@@ -1,0 +1,49 @@
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(16, 16px);
+}
+
+button {
+    height: 16px;
+    font-size: 12px;
+    color:black;
+    border-width: 0;
+    background-image: url('sprite.png');
+    background-position: 0 -50px;
+}
+
+.header .wrapper {
+    padding: 0 6px 0 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    width: 244px;
+    background-color: #c0c0c0;
+}
+
+.header .wrapper .face_status {
+    width: 25px;
+    height: 25px;
+    background-image: url('sprite.png');
+    background-position: 0 -24px;
+}
+
+.header .wrapper .timer__min, .timer__sec {
+    height: 22px;
+    width: 42px;
+    background-image: url('sprite.png');
+}
+
+.header .wrapper .timer__min #min1, #min3 {
+    width: 12px;
+}
+
+.header .wrapper .timer__min #min2 {
+    width: 12px;
+}
+
+.header .wrapper .timer__sec #sec1, #sec_2, #sec3 {
+    width: 12px;
+}
